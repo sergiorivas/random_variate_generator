@@ -53,6 +53,9 @@ You have two ways of generate random numbers.
 
 ### Formal way (Examples)
 
+With the formal way, you have to declare the random variate and then generate
+the value with the method `generate_value`
+
 ```ruby
 require 'random_variate_generator'
 
