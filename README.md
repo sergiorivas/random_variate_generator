@@ -39,17 +39,17 @@ You have two ways of generate random numbers.
 
 ### Simple way (Examples)
 
-  `RandomVariateGenerator::Random.exponential(lambda: 0.5)`
-  `RandomVariateGenerator::Random.normal(mu: 0.5, sigma: 3)`
-  `RandomVariateGenerator::Random.uniform(min: 0.5, max: 2)`
-  `RandomVariateGenerator::Random.triangular(min: 0.5, mode: 1, max: 2)`
-  `RandomVariateGenerator::Random.uniform_discrete(min: 0, max: 20)`
-  `RandomVariateGenerator::Randombernoulli(:probability_of_success => 0.2)`
-  `RandomVariateGenerator::Random.binomial(:probability_of_success => 0.2, :number_of_trials => 3)`
-  `RandomVariateGenerator::Random.negative_binomial(:probability_of_success => 0.2, :number_of_success => 2)`
-  `RandomVariateGenerator::Random.geometric(:probability_of_success => 0.2)`
-  `RandomVariateGenerator::Random.poisson(:lambda => 3)`
-  `RandomVariateGenerator::Random.empirical(:probabilities => [0.1, 0.3, 0.6])`
+  * `RandomVariateGenerator::Random.exponential(lambda: 0.5)`
+  * `RandomVariateGenerator::Random.normal(mu: 0.5, sigma: 3)`
+  * `RandomVariateGenerator::Random.uniform(min: 0.5, max: 2)`
+  * `RandomVariateGenerator::Random.triangular(min: 0.5, mode: 1, max: 2)`
+  * `RandomVariateGenerator::Random.uniform_discrete(min: 0, max: 20)`
+  * `RandomVariateGenerator::Random.bernoulli(:probability_of_success => 0.2)`
+  * `RandomVariateGenerator::Random.binomial(:probability_of_success => 0.2, :number_of_trials => 3)`
+  * `RandomVariateGenerator::Random.negative_binomial(:probability_of_success => 0.2, :number_of_success => 2)`
+  * `RandomVariateGenerator::Random.geometric(:probability_of_success => 0.2)`
+  * `RandomVariateGenerator::Random.poisson(:lambda => 3)`
+  * `RandomVariateGenerator::Random.empirical(:probabilities => [0.1, 0.3, 0.6])`
 
 ### Formal way (Examples)
 
