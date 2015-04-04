@@ -1,0 +1,20 @@
+require "random_variate_generator/version"
+
+module RandomVariateGenerator
+end
+
+require "random_variate_generator/invalid_parameter_exception"
+require "random_variate_generator/abstract_class_exception"
+require "random_variate_generator/random"
+require "random_variate_generator/random_variate"
+require "random_variate_generator/exponential_variate"
+require "random_variate_generator/uniform_variate"
+require "random_variate_generator/triangular_variate"
+require "random_variate_generator/normal_variate"
+require "random_variate_generator/bernoulli_variate"
+require "random_variate_generator/binomial_variate"
+require "random_variate_generator/negative_binomial_variate"
+require "random_variate_generator/geometric_variate"
+require "random_variate_generator/poisson_variate"
+require "random_variate_generator/empirical_variate"
+
