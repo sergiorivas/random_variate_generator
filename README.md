@@ -1,6 +1,6 @@
 # RandomVariateGenerator
 
-Is a random number generator random variate based.
+Is a random number generator for random variate occurs.
 
 You can generate random values from following distributions:
 
